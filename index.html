@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-- --// HOVER EFFECT UMD JS LINK IN DESCRIPTION // ---- -->
+    <script src="./hover-effect.umd.js"></script>
+    <script>
+        var hoverDistort = new hoverEffect({
+            parent: document.querySelector('.wrapper'),
+            intesity: 0.5,
+            image1: 'img_one.jpg',
+            image2: 'img_two.jpg',
+            displacementImage: '4.png'
+        });
+    </script>
+</body>
+</html>
